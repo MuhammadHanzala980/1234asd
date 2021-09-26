@@ -2,7 +2,10 @@
   "name": "video-chat",
   "description": "a really cool app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
